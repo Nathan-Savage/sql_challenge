@@ -52,7 +52,7 @@ on d.dept_no = de.dept_no
 where d.dept_name = 'Sales' or d.dept_name = 'Development'
 order by d.dept_name;
 
---Part8
+--Part 8
 select last_name, count(emp_no) as same_last_name
 from "Employees"
 group by last_name
